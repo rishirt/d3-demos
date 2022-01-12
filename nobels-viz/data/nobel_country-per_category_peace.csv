@@ -1,0 +1,52 @@
+country_id,country,count
+IO,International Organizations,26
+US,United States of America,19
+FR,France,10
+DE,Germany,5
+SE,Sweden,5
+GB,United Kingdom,5
+IEN,Northern Ireland,4
+BE,Belgium,3
+EG,Egypt,3
+ZA,South Africa,3
+CH,Switzerland,3
+AR,Argentina,2
+BY,Belarus,2
+TL,East Timor,2
+LR,Liberia,2
+NO,Norway,2
+PL,Poland,2
+RU,Russia,2
+SC,Scotland,2
+AU,Australia,1
+AT,Austria,1
+BD,Bangladesh,1
+CA,Canada,1
+CN,China,1
+CO,Colombia,1
+CR,Costa Rica,1
+CZ,Czech Republic,1
+CG,Democratic Republic of the Congo,1
+DK,Denmark,1
+ET,Ethiopia,1
+FI,Finland,1
+GH,Ghana,1
+GT,Guatemala,1
+IN,India,1
+IR,Iran,1
+IQ,Iraq,1
+IL,Israel,1
+IT,Italy,1
+JP,Japan,1
+KE,Kenya,1
+MK,Macedonia,1
+MX,Mexico,1
+MM,Myanmar,1
+NL,Netherlands,1
+PK,Pakistan,1
+RO,Romania,1
+KR,South Korea,1
+TB,Tibet,1
+VN,Vietnam,1
+YE,Yemen,1
+ZW,Zimbabwe,1

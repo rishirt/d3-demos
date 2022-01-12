@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nobel Prize Distribution</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="row">
+				<div class="col-12 col-md-8">
+					<h1>The Nobel Prize</h1>
+					<p class="tagline">Observations on sex and continent distribution over almost 120 years.</p>
+					<div class="intro">
+						<p>The Nobel Prize attributes annual awards in 6 categories: Chemistry, Economics, Literature, Medicine, Peace, and Physics. As women's contributions are slowly getting more recognition in these fields, can we observe a similar gender attribution trend of the Nobel Prize? Moreover, the United States appears to be the country winning the most awards in recent history. But was it always the case? These are some of the questions that motivated the creation of the following visualization. Explore it to find answers and much more!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="legend">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="legend-section">
+						<h2>How to read a category</h2>
+						<div class="nobel-category"></div>
+					</div>
+				</div>
+				<div class="col-12 col-md-8">
+					<div class="legend-section">
+						<h2>Colors</h2>
+						<div class="row">
+							<div class="col-12 col-md-4">
+								<div class="colors-gender">
+									<h3>Gender</h3>
+									<ul class="color-legend">
+										<li><span class="color color-women"></span><span class="label">Women</span></li>
+										<li><span class="color color-men"></span><span class="label">Men</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-12 col-md-8">
+								<div class="colors-continent">
+									<h3>Continents</h3>
+									<div class="row">
+										<div class="col-12 col-md-6">
+											<ul class="continent-legend">
+												<li><span class="continent continent-africa"></span><span class="label">Africa</span></li>
+												<li><span class="continent continent-asia"></span><span class="label">Asia</span></li>
+												<li><span class="continent continent-europe"></span><span class="label">Europe</span></li>
+												<li><span class="continent continent-north-america"></span><span class="label">North America</span></li>
+											</ul>
+										</div>
+										<div class="col-12 col-md-6">
+											<ul class="continent-legend">
+												<li><span class="continent continent-oceania"></span><span class="label">Oceania</span></li>
+												<li><span class="continent continent-south-america"></span><span class="label">South America</span></li>
+												<li><span class="continent continent-organization"></span><span class="label">International Organization</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="graphes-wrapper">
+			<h2>The visualization</h2>
+			<div id="nobel-overview"></div>
+			<div id="color-scale"></div>
+			<div id="sex-per-year"></div>
+			<div id="sex-per-category"></div>
+			<div id="nobel-per-country"></div>
+		</div>
+		<!-- Nobel tooltip -->
+		<div id="nobel-tooltip">
+			<div class="nt-container">
+				<div class="nt-top">
+					<div class="nt-category"></div>
+					<div class="nt-name"></div>
+					<div class="nt-location"></div>
+				</div>
+				<div class="nt-quote"></div>
+				<div class="nt-share"></div>
+			</div>
+		</div>
+
+		<div class="notes-section">
+			<div class="row">
+				<div class="col-12 col-md-8">
+					<h2>Notes & References</h2>
+					<ul>
+						<li>This visualization's layout is very strongly inspired from <a href="http://www.datasketch.es/august/code/nadieh/" target="_blank" rel="noreferrer">Olympic feathers</a> by <a href="https://www.visualcinnamon.com/" target="_blank" rel="noreferrer">Nadieh Bremer</a>.
+						<li>Data :<a href="https://data.world/sya/nobel-prize-winners" target="_blank" rel="noreferrer"> data.world</a>.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://d3js.org/d3.v5.js"></script>
+	<script src="js/data-loader.js"></script>
+	<script src="js/sex-per-year.js"></script>
+	<script src="js/color-scales.js"></script>
+	<script src="js/nobels-overview.js"></script>
+</body>
+</html>

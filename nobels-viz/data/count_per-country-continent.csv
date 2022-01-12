@@ -1,0 +1,71 @@
+continent,country,nobel_count
+Africa,South Africa,5
+Africa,Egypt,4
+Africa,Liberia,2
+Africa,Algeria,1
+Africa,Democratic Republic of the Congo,1
+Africa,Ethiopia,1
+Africa,Ghana,1
+Africa,Kenya,1
+Africa,Madagascar,1
+Africa,Nigeria,1
+Africa,Tunisia,1
+Africa,Zimbabwe,1
+Asia,Japan,23
+Asia,Israel,6
+Asia,China,5
+Asia,India,4
+Asia,East Timor,2
+Asia,Iran,2
+Asia,Turkey,2
+Asia,Bangladesh,1
+Asia,Iraq,1
+Asia,Myanmar,1
+Asia,Pakistan,1
+Asia,South Korea,1
+Asia,Tibet,1
+Asia,Vietnam,1
+Asia,Yemen,1
+Australia,Australia,7
+Europe,United Kingdom,108
+Europe,Germany,92
+Europe,France,62
+Europe,Sweden,30
+Europe,Switzerland,28
+Europe,Russia,21
+Europe,Denmark,14
+Europe,Italy,14
+Europe,Netherlands,12
+Europe,Austria,10
+Europe,Belgium,10
+Europe,Poland,10
+Europe,Norway,9
+Europe,Spain,6
+Europe,Northern Ireland,5
+Europe,Ireland,4
+Europe,Finland,3
+Europe,Portugal,3
+Europe,Belarus,2
+Europe,Czech Republic,3
+Europe,Hungary,2
+Europe,Romania,2
+Europe,Scotland,2
+Europe,Ukraine,2
+Europe,Bosnia and Herzegovina,1
+Europe,Bulgaria,1
+Europe,Greece,1
+Europe,Iceland,1
+Europe,Lithuania,1
+Europe,Macedonia,1
+North America,United States of America,416
+North America,Canada,11
+North America,Guatemala,2
+North America,Mexico,2
+North America,Guadeloupe,1
+North America,Saint Lucia,1
+South America,Argentina,4
+South America,Chile,2
+South America,Colombia,2
+South America,Costa Rica,1
+South America,Peru,1
+South America,Trinidad,1

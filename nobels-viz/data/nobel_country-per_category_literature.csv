@@ -1,0 +1,47 @@
+country_id,country,count
+FR,France,11
+US,United States of America,9
+DE,Germany,8
+SE,Sweden,7
+GB,United Kingdom,7
+IT,Italy,6
+PL,Poland,6
+RU,Russia,5
+ES,Spain,5
+DK,Denmark,4
+IE,Ireland,3
+AT,Austria,2
+CA,Canada,2
+CL,Chile,2
+CN,China,2
+IN,India,2
+JP,Japan,2
+NO,Norway,2
+ZA,South Africa,2
+TR,Turkey,2
+UA,Ukraine,2
+DZ,Algeria,1
+BE,Belgium,1
+BA,Bosnia and Herzegovina,1
+BG,Bulgaria,1
+CO,Colombia,1
+CZ,Czech Republic,1
+EG,Egypt,1
+FI,Finland,1
+GR,Greece,1
+GP,Guadeloupe,1
+GT,Guatemala,1
+HU,Hungary,1
+IS,Iceland,1
+IR,Iran,1
+LT,Lithuania,1
+MG,Madagascar,1
+MX,Mexico,1
+NG,Nigeria,1
+IEN,Northern Ireland,1
+PE,Peru,1
+PT,Portugal,1
+RO,Romania,1
+LC,Saint Lucia,1
+CH,Switzerland,1
+TT,Trinidad,1
