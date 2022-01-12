@@ -1,0 +1,57 @@
+.unresponsive-window {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 51, 51, .4);
+  opacity: 0;
+  -webkit-transform: translateY(100vh);
+  transform: translateY(100vh);
+  -webkit-transition: opacity .5s cubic-bezier(.25, .46, .45, .94);
+  transition: opacity .5s cubic-bezier(.25, .46, .45, .94)
+}
+.unresponsive-window.visible {
+  opacity: 1;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0)
+}
+
+.modal {
+  position: relative;
+  width: calc(100% - 60px);
+  padding: 25px 15px 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 8px 3px rgba(51, 51, 51, .25);
+  -moz-box-shadow: 1px 1px 8px 3px rgba(51, 51, 51, .25);
+  box-shadow: 1px 1px 8px 3px rgba(51, 51, 51, .25)
+}
+.modal .emoji {
+  margin-right: 6px
+}
+.modal h3 {
+  margin-bottom: 0;
+  font-size: 25px
+}
+.modal p {
+  margin-top: 12px;
+  line-height: 1.2
+}
+.modal .close {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  width: 14px;
+  height: 14px;
+  background-image: url(../assets/close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer
+}
