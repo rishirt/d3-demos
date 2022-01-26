@@ -1,3 +1,3 @@
-# d3-demos-drroberts
+# d3-demos
 
-Interactive D3 demos for GRA position with Dr.Jessica Roberts
+Interactive D3 projects I've built in the past.
